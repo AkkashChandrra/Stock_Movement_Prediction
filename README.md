@@ -1,7 +1,7 @@
 # Stock_Movement_Prediction
 This project involves predicting future stock prices using an LSTM model, enriched with sentiment analysis and a knowledge graph built from financial news data. The approach combines financial time-series forecasting with sentiment-driven insights to improve prediction accuracy.
 
-#Features of the Project
+## **Features of the Project**
 1. Data Collection
 Stock Data: Fetches historical stock prices using Yahoo Finance's API.
 News Data: Retrieves news articles using NewsAPI, focusing on the company of interest.
@@ -18,7 +18,9 @@ A deep learning model with multiple LSTM layers is trained on past stock prices 
 6. Evaluation
 Performance metrics such as MAE, MSE, RMSE, and R² are used to evaluate the model.
 Predictions are visualized alongside actual stock prices for comparison.
-#Setup Instructions
+
+
+# **Setup Instructions** #
 Prerequisites
 Python 3.7 or later.
 Install required libraries:
@@ -40,7 +42,7 @@ Build a knowledge graph.
 Train the LSTM model.
 Predict future stock prices.
 View visualizations and evaluate model performance.
-#Project Flow
+# **Project Flow** #
 1. Data Loading
 Historical stock data is fetched using Yahoo Finance.
 News articles are retrieved and preprocessed for sentiment analysis.
@@ -56,13 +58,9 @@ Early stopping ensures optimal performance.
 5. Future Predictions
 The trained model predicts stock prices for the next 60 days.
 Predictions incorporate technical indicators and graph features.
-#Results
+# **Results** #
 The LSTM model effectively predicts stock price trends.
 Sentiment analysis and graph features enhance the model's ability to capture market dynamics.
-#Future Scope
-Incorporate additional sentiment models for improved analysis.
-Explore other graph-based features or relationships.
-Extend predictions to multi-stock portfolios or indices.
-#Notes
+# **Notes #
 Ensure the news_api_key is valid for retrieving news data.
 Results may vary depending on the quality of news data and model parameters.
